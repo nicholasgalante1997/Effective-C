@@ -1,0 +1,10 @@
+title: Objects, Functions, and Types
+
+topics: 
+  - pointers, 
+  - objects, 
+  - functions, 
+  - references, 
+  - static variable scope in fns
+  - scope 
+  - storage duration (lifetimes)
