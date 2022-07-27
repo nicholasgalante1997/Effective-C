@@ -11,6 +11,8 @@ void doesNothing(int b) {
 void increment(void) {
     // a block level var that has static storage duration
     // these objects persists in mem after the fn has exited
+    // static objects must be initialized with a constant value (4),
+    // and not a variable (a)
     static int count = 0; 
     count++;
     printf("count is %d\n", count);
